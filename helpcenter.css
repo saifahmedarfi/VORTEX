@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    height: 100vh;
+    background: linear-gradient(to right, black, #013220); /* gradient background */
+    color: #90EE90;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: none;
+  }
+  
+  .logo-section {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .logo {
+    color: #90EE90;
+    font-size: 2rem;
+    font-family: 'Pacifico', cursive;
+    text-decoration: none;
+  }
+  
+  .pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+  .tagline {
+    font-size: 0.8rem;
+    color: #90EE90;
+    margin-top: -5px;
+  }
+  
+  .nav-links a {
+    margin: 0 15px;
+    color: #90EE90;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: white;
+  }
+  
+  .auth-buttons .btn {
+    margin-left: 10px;
+    padding: 8px 16px;
+    border: 1px solid #90EE90;
+    color: #90EE90;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: all 0.3s;
+  }
+  
+  .auth-buttons .btn:hover {
+    background-color: #90EE90;
+    color: #013220;
+  }
+  
+  /* About Section Styles */
+.about-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(1, 50, 32, 0.8); /* Transparent dark green background */
+    padding: 40px;
+    max-width: 800px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    margin: 50px auto;
+  }
+  
+  /* Heading and Text in About Section */
+  .about-section h1, .about-section h2 {
+    color: #90EE90;
+    font-size: 2.5rem;
+  }
+  
+  .about-section p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #90EE90;
+    max-width: 600px;
+    margin: 10px auto;
+  }
+  
+
+/* Style for Social Links */
+
+/* Email Button Style */
+.social-links li a.email {
+    background-color: #000000; /* Vibrant Vortex purple shade */
+    color: #90EE90;
+  }
+  
+  /* Hover effects already apply from previous rules */
+
+  
+.social-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px; /* Adjust space between icons */
+  }
+  
+  /* Remove underlines from links */
+  .social-links li a {
+    text-decoration: none; /* No underline */
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between icon and text */
+    padding: 10px;
+    border-radius: 30px; /* Round the edges */
+    transition: all 0.3s ease;
+  }
+  
+  /* Vibrant Colors for the social buttons */
+  .social-links li a.facebook {
+    background-color: #000000;
+    color: #90EE90;
+  }
+  
+  .social-links li a.instagram {
+    background-color: #000000;
+    color: #90EE90;
+  }
+  
+  .social-links li a.spotify {
+    background-color: #000000;
+    color: #90EE90;
+  }
+  
+  .social-links li a.youtube {
+    background-color: #020202;
+    color: #90EE90;
+  }
+  
+  /* Hover Effects for each social button */
+  .social-links li a:hover {
+    transform: translateY(-5px); /* Slight lift effect */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Shadow on hover */
+  }
+  
+  .social-links li a i {
+    font-size: 1.5rem; /* Icon size */
+  }
+  
+  /* Change icon color on hover */
+  .social-links li a:hover i {
+    color: #f1f1f1;
+  }
+  
+
+  .footer-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #013220;
+    color: #90EE90;
+    text-align: center;
+    padding: 0.1 px 0;
+    font-size: 0.9rem;
+    border-top: 1px solid #90EE90;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+
+  .footer-bar a {
+    color: #90EE90;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-bar a:hover {
+    color: #b2ffb2; /* Slightly lighter green */
+  }
+  
+  
