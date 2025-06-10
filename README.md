@@ -3,8 +3,8 @@
 ![Python](https://img.shields.io/badge/Language-Python-3776AB?logo=python)
 ![Spotify API](https://img.shields.io/badge/API-Spotify-1DB954?logo=spotify)
 ![Hugging Face](https://img.shields.io/badge/NLP-HuggingFace-yellow?logo=huggingface)
-![License](https://img.shields.io/github/license/your-username/vortex?color=blue)
-![Status](https://img.shields.io/badge/Status-In_Development-orange)
+![License](https://img.shields.io/github/license/saifahmedarfi/vortex?color=green)
+![Status](https://img.shields.io/badge/Developed-orange)
 
 
 
